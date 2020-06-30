@@ -1,3 +1,4 @@
+# function which displays the missing values in a dataset attribute wise
 import pandas as pd
 import numpy as np
 
@@ -9,7 +10,8 @@ def miss_val(data):
        return miss
     else: print('There are no missing values in the Dataset')
     
-    
+
+#function show the number of unique values column wise
 miss_val(dataset)
 
 # num -> is the number of unique observations to be displayed
